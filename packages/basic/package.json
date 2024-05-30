@@ -1,0 +1,14 @@
+{
+  "name": "@brokenbones/opencclint-config",
+  "version": "0.0.1",
+  "description": "Basic OpenccLint configuration for projects",
+  "author": "brokenbonesdd@gmail.com",
+  "keywords": [
+    "opencclint",
+    "config"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ]
+}

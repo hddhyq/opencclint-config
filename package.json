@@ -1,0 +1,28 @@
+{
+  "name": "opencclint-config-mono",
+  "version": "0.0.1",
+  "private": true,
+  "description": "opencclint config for projects",
+  "author": "brokenbonesdd@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hddhyq/opencclint-config"
+  },
+  "keywords": [
+    "opencclint",
+    "config"
+  ],
+  "scripts": {
+    "lint": "eslint . --fix",
+    "release": "nr lint && bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --no-git-checks"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.18.0",
+    "@antfu/ni": "^0.21.12",
+    "bumpp": "^9.2.0",
+    "eslint": "^8.50.0",
+    "rimraf": "^5.0.4",
+    "typescript": "^5.2.2"
+  }
+}
