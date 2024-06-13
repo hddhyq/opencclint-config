@@ -1,6 +1,6 @@
 {
-  "name": "@brokenbones/opencclint-config",
-  "version": "0.0.5",
+  "name": "opencclint-config",
+  "version": "0.0.6",
   "description": "Basic OpenccLint configuration for projects",
   "author": "brokenbonesdd@gmail.com",
   "keywords": [
